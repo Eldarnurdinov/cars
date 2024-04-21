@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+     <!-- CRUD 2 -->
+     <form class="d-flex gap-3 m-5">
+        <input name="model" class="form-control" type="text" placeholder="model"/>
+        <input name="country" class="form-control" type="text" placeholder="country" />
+        <input name="year" class="form-control" type="text" placeholder="year"/>
+        <input name="price" class="form-control" type="text" placeholder="price"/>
+        <input name="phone" class="form-control" type="text" placeholder="phone"/>
+
+        <button class="btn btn-info">ADD</button>
+    </form>
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Model</th>
+                <th scope="col">Country</th>
+                <th scope="col">Year</th>
+                <th scope="col">Price</th>
+                <th scope="col">Phone</th>
+
+
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+    <h2 id="total"></h2>
+
+
+
+
+    <script src="./app.js"></script>
+    
+</body>
+</html>
